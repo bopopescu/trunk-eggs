@@ -75,7 +75,7 @@ class AnalyticsTool(SimpleItem, utils):
         self.date_interval = 30
         self.start_date = ''
         self.ga_id = '' # Google Analytics web property ID (UA-number)
-        self.gw_verify = '' # Google Webmaster verification meta tag
+        self.gw_verify = '' # Google Webmain verification meta tag
         self._google_access_token = None
         self._google_refresh_token = None
         self.profile_code = None
